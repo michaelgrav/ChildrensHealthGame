@@ -13,10 +13,10 @@ position = Vector2( 650.174, 440.095 )
 texture = ExtResource( 4 )
 
 [node name="Button" type="Button" parent="."]
-margin_left = 569.068
-margin_top = 352.769
-margin_right = 668.068
-margin_bottom = 372.769
+margin_left = 270.905
+margin_top = 174.471
+margin_right = 369.905
+margin_bottom = 194.471
 text = "Press To Start"
 script = ExtResource( 1 )
 __meta__ = {
@@ -24,22 +24,22 @@ __meta__ = {
 }
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
-margin_left = 502.807
-margin_top = 315.24
-margin_right = 759.807
-margin_bottom = 361.24
+margin_left = 204.644
+margin_top = 136.942
+margin_right = 461.644
+margin_bottom = 182.942
 text = "Welcome to Childrens Health Game"
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="36f6a261e5f16319f82287a77a3f0a5d" type="Sprite" parent="."]
-position = Vector2( 389.67, 361.037 )
+position = Vector2( 91.5069, 182.738 )
 scale = Vector2( 0.0840349, 0.0840349 )
 texture = ExtResource( 2 )
 
 [node name="candybarpixel" type="Sprite" parent="."]
-position = Vector2( 840.105, 347.2 )
+position = Vector2( 541.942, 168.902 )
 scale = Vector2( 0.645855, 0.645855 )
 texture = ExtResource( 3 )
 
