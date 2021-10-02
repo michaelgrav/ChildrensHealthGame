@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Button.gd" type="Script" id=1]
+
+[node name="StartScreen" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+margin_left = 18.7723
+margin_top = 12.1696
+margin_right = 30.7723
+margin_bottom = 32.1696
+text = "Press To Start"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
