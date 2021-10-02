@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Button.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/36f6a261e5f16319f82287a77a3f0a5d.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/candybarpixel.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Aurometalsaurus-Solid-Color-Background-Wallpaper-for-Mobile-Phone.png" type="Texture" id=4]
+
+[node name="StartScreen" type="Node2D"]
+
+[node name="Aurometalsaurus-Solid-Color-Background-Wallpaper-for-Mobile-Phone" type="Sprite" parent="."]
+position = Vector2( 650.174, 440.095 )
+texture = ExtResource( 4 )
+
+[node name="Button" type="Button" parent="."]
+margin_left = 569.068
+margin_top = 352.769
+margin_right = 668.068
+margin_bottom = 372.769
+text = "Press To Start"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 502.807
+margin_top = 315.24
+margin_right = 759.807
+margin_bottom = 361.24
+text = "Welcome to Childrens Health Game"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="36f6a261e5f16319f82287a77a3f0a5d" type="Sprite" parent="."]
+position = Vector2( 389.67, 361.037 )
+scale = Vector2( 0.0840349, 0.0840349 )
+texture = ExtResource( 2 )
+
+[node name="candybarpixel" type="Sprite" parent="."]
+position = Vector2( 840.105, 347.2 )
+scale = Vector2( 0.645855, 0.645855 )
+texture = ExtResource( 3 )
+
+[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
