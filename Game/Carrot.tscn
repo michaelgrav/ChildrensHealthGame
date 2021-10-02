@@ -5,7 +5,7 @@
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 10.1549
-height = 44.6769
+height = 43.3388
 
 [node name="Carrot" type="KinematicBody2D" groups=[
 "ball",

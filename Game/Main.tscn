@@ -63,14 +63,14 @@ texture = ExtResource( 5 )
 
 [node name="Bricks" type="Node" parent="."]
 
-[node name="Brick" parent="Bricks" instance=ExtResource( 4 )]
-position = Vector2( 345.668, 266.483 )
-
 [node name="Brick3" parent="Bricks" instance=ExtResource( 4 )]
 position = Vector2( 240, 266.483 )
 
 [node name="Brick4" parent="Bricks" instance=ExtResource( 4 )]
 position = Vector2( 120, 266.483 )
+
+[node name="Brick5" parent="Bricks" instance=ExtResource( 4 )]
+position = Vector2( 349.565, 269.426 )
 
 [node name="Brick2" parent="Bricks" instance=ExtResource( 4 )]
 position = Vector2( 459.831, 263.452 )
