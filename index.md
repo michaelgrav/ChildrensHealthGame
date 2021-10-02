@@ -6,6 +6,7 @@
 #### *Created by Michael Graves and Ryan Gaulding using Godot.*
 
 Why We Created This Game
+
 We created this game to provide an avenue for healthcare professionals to more easily and reliable spread important messages to the youths. 
 
 The old way of handing out sheets of paper and having them read is no more, with this solution children can do what they do best, play video games, while at the same time getting important health facts to improve their lives.
