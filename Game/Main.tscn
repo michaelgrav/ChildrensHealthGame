@@ -13,11 +13,7 @@ scale = Vector2( 0.5, 0.5 )
 
 [node name="Carrot" parent="." instance=ExtResource( 3 )]
 
-[node name="ScoreTimer" type="Timer" parent="."]
-
-[node name="StartTimer" type="Timer" parent="."]
-wait_time = 2.0
-one_shot = true
-
 [node name="StartPosition" type="Position2D" parent="."]
 position = Vector2( 280, 1000 )
+
+[node name="Node2D" type="Node2D" parent="."]
