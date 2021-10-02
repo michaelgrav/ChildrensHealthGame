@@ -8,7 +8,7 @@ extends RichTextLabel
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	bbcode_text = "Welcome to your game of life! On this adventure you will be making everyday life desicions but virtually."
+	bbcode_text = "Option1."
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
