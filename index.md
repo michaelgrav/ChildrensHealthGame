@@ -14,7 +14,7 @@ This game focuses on childhood obesity, and tries to show the negative affects o
 
 
 ### How To Play
-
+![asd](obesity.jpg)
 The basics of the game is very similiar to that of a [brick breaker](https://en.wikipedia.org/wiki/Brick_Breaker), but with a twist. 
 
 ### Contact/Credit
