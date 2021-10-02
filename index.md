@@ -10,10 +10,12 @@ We created this game to provide an avenue for healthcare professionals to more e
 
 The old way of handing out sheets of paper and having them read is no more, with this solution children can do what they do best, play video games, while at the same time getting important health facts to improve their lives.
 
+This game focuses on childhood obesity, and tries to show the negative affects of fastfood as well as the benefits of healthy foods such as fruits and vegtables.
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nsx00/ChildrensHealthGame/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### How To Play
+
+The basics of the game is very similiar to that of a [brick breaker](https://en.wikipedia.org/wiki/Brick_Breaker), but with a twist. 
 
 ### Contact/Credit
 
