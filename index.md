@@ -1,16 +1,14 @@
-## Welcome to Childrens Health Game
+![Blind](Carrot.png)
+# Welcome to the Children's Health Game Official Website
 
 You can find our [github](https://github.com/nsx00/ChildrensHealthGame) to find the source code for the game.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<<<<<<< HEAD
-=======
+
 ### Markdown
-```markdown
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-```
->>>>>>> 5845cc381332f0d92888fa573fe4d42ba70d2230
+
+>>> Hey
 ```markdown
 Syntax highlighted code block
 
@@ -28,7 +26,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-![image](\Symbol.png)
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
