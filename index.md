@@ -1,14 +1,15 @@
 ![Blind](Carrot.png)
 # Welcome to the Children's Health Game Official Website
 
-You can find our [github](https://github.com/nsx00/ChildrensHealthGame) to find the source code for the game.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 
-### Markdown
+#### *Created by Michael Graves and Ryan Gaulding using Godot.*
 
->>> Hey
+###Why We Created This Game
+We created this game to provide an avenue for healthcare professionals to more easily and reliable spread important messages to the youths. 
+
+The old way of handing out sheets of paper and having them read is no more, with this solution children can do what they do best, play video games, while at the same time getting important health facts to improve their lives.
+
 
 ### Jekyll Themes
 
