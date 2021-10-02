@@ -18,8 +18,5 @@ func _on_Area2D_area_entered(area):
 
 
 func _on_Area2D_body_entered(body):
-	print("HELLO,WORLD")
-	print(body)
 	if body.is_in_group("ball"):
-		print("BALLLL")
 		queue_free()
