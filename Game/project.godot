@@ -23,7 +23,7 @@ window/size/height=1024
 
 mode=false
 Mode=false
-2d=false
+2d=true
 
 [physics]
 
