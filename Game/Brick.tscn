@@ -5,7 +5,7 @@
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 49.3337
-height = 109.489
+height = 32.7641
 
 [node name="Brick" type="StaticBody2D" groups=[
 "brick",
