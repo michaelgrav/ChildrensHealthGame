@@ -17,5 +17,4 @@ __meta__ = {
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 2000, 6500 )
 shape = SubResource( 1 )
