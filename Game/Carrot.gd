@@ -1,13 +1,12 @@
 extends RigidBody2D
 signal hit
 
-export var speed = 5000
+export var speed = 50
 var direction = Vector2()
 
 func _ready():
-	randomize()
-	direction.x = rand_range(0, 1)
-	direction.y = rand_range(0, 1)
+	apply_impulse(Vector2(), Vector2(1,1).normalized() * speed)
+	set_bounce(1)
 
 func _process(delta):
 	var velocity = speed * delta * direction

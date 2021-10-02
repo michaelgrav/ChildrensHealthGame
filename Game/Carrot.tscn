@@ -8,6 +8,7 @@ radius = 10.1549
 height = 43.3388
 
 [node name="Carrot" type="RigidBody2D"]
+position = Vector2( 294.768, 338.083 )
 mode = 2
 gravity_scale = 0.0
 linear_damp = 0.0
