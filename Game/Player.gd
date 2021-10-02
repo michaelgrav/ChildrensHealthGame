@@ -1,4 +1,4 @@
-extends StaticBody2D
+extends KinematicBody2D
 
 export var speed = 400 # How fast the player will move
 var screen_size # Size of the game window

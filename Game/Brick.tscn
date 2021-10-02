@@ -10,7 +10,7 @@ height = 32.7641
 [node name="Brick" type="StaticBody2D" groups=[
 "brick",
 ]]
-scale = Vector2( 0.257604, 0.418809 )
+scale = Vector2( 0.0853793, 0.138808 )
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="."]

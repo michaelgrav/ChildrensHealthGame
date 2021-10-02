@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 70, 10 )
 
-[node name="Player" type="StaticBody2D" groups=[
+[node name="Player" type="KinematicBody2D" groups=[
 "ball",
 ]]
 scale = Vector2( 0.15, 0.15 )
