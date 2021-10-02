@@ -7,7 +7,9 @@
 radius = 10.1549
 height = 43.3388
 
-[node name="Carrot" type="RigidBody2D"]
+[node name="Carrot" type="RigidBody2D" groups=[
+"ball",
+]]
 position = Vector2( 294.768, 338.083 )
 mode = 2
 gravity_scale = 0.0
