@@ -1,7 +1,7 @@
-extends Area2D
+extends StaticBody2D
 
 export var speed = 400 # How fast the player will move
-var screen_size# Size of the game window
+var screen_size # Size of the game window
 
 # Called when a node enters the scene tree
 func _ready():
