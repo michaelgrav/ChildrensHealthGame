@@ -8,10 +8,10 @@ radius = 10.1549
 height = 43.3388
 
 [node name="Carrot" type="RigidBody2D"]
+mode = 2
+gravity_scale = 0.0
+linear_damp = 0.0
 script = ExtResource( 2 )
-min_speed = null
-max_speed = null
-speed = null
 
 [node name="Sprite" type="Sprite" parent="."]
 scale = Vector2( 0.15, 0.15 )
