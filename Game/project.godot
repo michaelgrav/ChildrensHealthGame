@@ -11,13 +11,19 @@ config_version=4
 [application]
 
 config/name="Game"
+run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=600
+window/size/height=1024
 
 [global]
 
 mode=false
 Mode=false
-2d=false
+2d=true
 
 [physics]
 
