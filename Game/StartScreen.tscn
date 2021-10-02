@@ -5,12 +5,22 @@
 [node name="StartScreen" type="Node2D"]
 
 [node name="Button" type="Button" parent="."]
-margin_left = 18.7723
-margin_top = 12.1696
-margin_right = 30.7723
-margin_bottom = 32.1696
+margin_left = 569.068
+margin_top = 352.769
+margin_right = 668.068
+margin_bottom = 372.769
 text = "Press To Start"
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 502.807
+margin_top = 315.24
+margin_right = 759.807
+margin_bottom = 361.24
+text = "Welcome to Childrens Health Game"
 __meta__ = {
 "_edit_use_anchors_": false
 }
