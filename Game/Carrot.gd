@@ -10,6 +10,8 @@ func _physics_process(delta):
 	if collison_info:
 		direction = direction.bounce(collison_info.normal)
 		$AudioStreamPlayer.play()
+		GameVars.score += 1
+		print(GameVars.score)
 
 func _on_Carrot_body_entered(body):
 	pass # Replace with function body.
