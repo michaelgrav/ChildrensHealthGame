@@ -20,3 +20,7 @@ func _process(delta):
 	position += velocity * delta
 	position.x = clamp(position.x, 0, screen_size.x)
 	position.y = clamp(position.y, 0, screen_size.y)
+	
+func _on_Ball_body_enter(body):
+	if body.is_in_group("brick"):
+		body.queue_free()
