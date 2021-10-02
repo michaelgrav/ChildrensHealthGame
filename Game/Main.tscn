@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
 [ext_resource path="res://Carrot.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Brick.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Sprites/Aurometalsaurus-Solid-Color-Background-Wallpaper-for-Mobile-Phone.png" type="Texture" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 3.08475, 10 )
@@ -56,3 +57,9 @@ shape = SubResource( 1 )
 
 [node name="Brick" parent="." instance=ExtResource( 4 )]
 position = Vector2( 266.864, 595.841 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 305.7, 436.796 )
+scale = Vector2( 0.355454, 0.444092 )
+z_index = -1
+texture = ExtResource( 5 )
