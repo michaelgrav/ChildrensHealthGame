@@ -17,7 +17,7 @@ position = Vector2( 280, 1000 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="Carrot" parent="." instance=ExtResource( 3 )]
-position = Vector2( 43.6296, 54.9997 )
+position = Vector2( 52.7223, 534.893 )
 speed = 200
 
 [node name="StartPosition" type="Position2D" parent="."]
@@ -55,11 +55,23 @@ position = Vector2( 302.442, 1030.94 )
 scale = Vector2( 100, 1 )
 shape = SubResource( 1 )
 
-[node name="Brick" parent="." instance=ExtResource( 4 )]
-position = Vector2( 266.864, 595.841 )
-
 [node name="Background" type="Sprite" parent="."]
 position = Vector2( 305.7, 436.796 )
 scale = Vector2( 0.355454, 0.444092 )
 z_index = -1
 texture = ExtResource( 5 )
+
+[node name="Bricks" type="Node" parent="."]
+
+[node name="Brick" parent="Bricks" instance=ExtResource( 4 )]
+position = Vector2( 345.668, 266.483 )
+
+[node name="Brick3" parent="Bricks" instance=ExtResource( 4 )]
+position = Vector2( 240, 266.483 )
+
+[node name="Brick4" parent="Bricks" instance=ExtResource( 4 )]
+position = Vector2( 120, 266.483 )
+
+[node name="Brick2" parent="Bricks" instance=ExtResource( 4 )]
+position = Vector2( 459.831, 263.452 )
+scale = Vector2( 0.257604, 0.417601 )
