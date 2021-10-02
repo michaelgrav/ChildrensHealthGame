@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/background-loop-melodic-techno-03-2691.mp3-d3856a82e43b153e7e81f69b5fe42358.mp3str"
+
+[deps]
+
+source_file="res://Sounds/background-loop-melodic-techno-03-2691.mp3"
+dest_files=[ "res://.import/background-loop-melodic-techno-03-2691.mp3-d3856a82e43b153e7e81f69b5fe42358.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

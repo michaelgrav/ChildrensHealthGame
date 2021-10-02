@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Pong Sound Effects.mp3-b56ef04434688c075d302141bf35b626.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Pong Sound Effects.mp3"
+dest_files=[ "res://.import/Pong Sound Effects.mp3-b56ef04434688c075d302141bf35b626.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Sprites/36f6a261e5f16319f82287a77a3f0a5d.png" type="Texture" id=1]
 [ext_resource path="res://Carrot.gd" type="Script" id=2]
+[ext_resource path="res://Sounds/paddle.wav" type="AudioStream" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 10.1549
@@ -10,7 +11,7 @@ height = 44.6769
 [node name="Carrot" type="KinematicBody2D" groups=[
 "ball",
 ]]
-position = Vector2( 294.768, 338.083 )
+position = Vector2( 294.957, 338.84 )
 scale = Vector2( 0.32, 0.32 )
 script = ExtResource( 2 )
 
@@ -22,3 +23,6 @@ texture = ExtResource( 1 )
 rotation = -2.26079
 scale = Vector2( 0.619392, -0.937771 )
 shape = SubResource( 1 )
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
