@@ -4,6 +4,13 @@ You can find our [github](https://github.com/nsx00/ChildrensHealthGame) to find 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<<<<<<< HEAD
+=======
+### Markdown
+```markdown
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```
+>>>>>>> 5845cc381332f0d92888fa573fe4d42ba70d2230
 ```markdown
 Syntax highlighted code block
 
@@ -13,7 +20,7 @@ Syntax highlighted code block
 
 - Bulleted
 - List
-
+***TESTING***
 1. Numbered
 2. List
 
