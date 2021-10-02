@@ -7,13 +7,10 @@
 radius = 10.1549
 height = 44.6769
 
-[node name="Carrot" type="RigidBody2D" groups=[
+[node name="Carrot" type="KinematicBody2D" groups=[
 "ball",
 ]]
 position = Vector2( 294.768, 338.083 )
-mode = 2
-gravity_scale = 0.0
-linear_damp = 0.0
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
@@ -21,6 +18,6 @@ scale = Vector2( 0.034164, 0.034164 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-rotation = 0.880803
-scale = Vector2( -0.619392, 0.937771 )
+rotation = -2.26079
+scale = Vector2( 0.619392, -0.937771 )
 shape = SubResource( 1 )
