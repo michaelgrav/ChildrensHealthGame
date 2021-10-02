@@ -16,7 +16,7 @@ position = Vector2( 280, 1000 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="Carrot" parent="." instance=ExtResource( 3 )]
-position = Vector2( 43.6296, 54.9997 )
+position = Vector2( 70.1612, 84.7859 )
 speed = 200
 
 [node name="StartPosition" type="Position2D" parent="."]
@@ -56,3 +56,64 @@ shape = SubResource( 1 )
 
 [node name="Brick" parent="." instance=ExtResource( 4 )]
 position = Vector2( 266.864, 595.841 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 151.581, 597.731 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 273.163, 508.277 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick4" parent="." instance=ExtResource( 4 )]
+position = Vector2( 157.88, 510.166 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick5" parent="." instance=ExtResource( 4 )]
+position = Vector2( 506.249, 499.457 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick6" parent="." instance=ExtResource( 4 )]
+position = Vector2( 390.966, 501.347 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick7" parent="." instance=ExtResource( 4 )]
+position = Vector2( 270.643, 417.562 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick8" parent="." instance=ExtResource( 4 )]
+position = Vector2( 155.361, 419.452 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick9" parent="." instance=ExtResource( 4 )]
+position = Vector2( 276.943, 329.998 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick10" parent="." instance=ExtResource( 4 )]
+position = Vector2( 161.66, 331.888 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick11" parent="." instance=ExtResource( 4 )]
+position = Vector2( 510.028, 321.178 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick12" parent="." instance=ExtResource( 4 )]
+position = Vector2( 394.746, 323.068 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick13" parent="." instance=ExtResource( 4 )]
+position = Vector2( 508.138, 585.762 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick14" parent="." instance=ExtResource( 4 )]
+position = Vector2( 392.856, 587.652 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick15" parent="." instance=ExtResource( 4 )]
+position = Vector2( 511.918, 407.483 )
+scale = Vector2( 0.505505, 0.825562 )
+
+[node name="Brick16" parent="." instance=ExtResource( 4 )]
+position = Vector2( 396.635, 409.373 )
+scale = Vector2( 0.505505, 0.825562 )
