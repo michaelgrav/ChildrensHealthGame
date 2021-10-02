@@ -14,7 +14,7 @@ extents = Vector2( 3.08475, 10 )
 script = ExtResource( 2 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 308.373, 327.379 )
+position = Vector2( 306.826, 345.555 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="Carrot" parent="." instance=ExtResource( 3 )]
